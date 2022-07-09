@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		8897419128797B7500AC7D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897419028797B7500AC7D42 /* AppDelegate.swift */; };
 		8897419328797B7500AC7D42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897419228797B7500AC7D42 /* SceneDelegate.swift */; };
-		8897419528797B7500AC7D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897419428797B7500AC7D42 /* ViewController.swift */; };
 		8897419828797B7500AC7D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8897419628797B7500AC7D42 /* Main.storyboard */; };
 		8897419A28797B7600AC7D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8897419928797B7600AC7D42 /* Assets.xcassets */; };
 		8897419D28797B7600AC7D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8897419B28797B7600AC7D42 /* LaunchScreen.storyboard */; };
+		889741A628797BC700AC7D42 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889741A528797BC700AC7D42 /* LoginController.swift */; };
+		889741A828797EE500AC7D42 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889741A728797EE500AC7D42 /* SignUpController.swift */; };
+		889741AA287982BC00AC7D42 /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889741A9287982BC00AC7D42 /* DetailsController.swift */; };
+		889741AC287982D000AC7D42 /* SignOutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889741AB287982D000AC7D42 /* SignOutController.swift */; };
+		889741AF2879843200AC7D42 /* UIExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889741AE2879843200AC7D42 /* UIExtensions.swift */; };
+		889741B12879A8A200AC7D42 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889741B02879A8A200AC7D42 /* StringExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8897418D28797B7500AC7D42 /* HM14(shio andghuladze).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HM14(shio andghuladze).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8897419028797B7500AC7D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8897419228797B7500AC7D42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8897419428797B7500AC7D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8897419728797B7500AC7D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8897419928797B7600AC7D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8897419C28797B7600AC7D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8897419E28797B7600AC7D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		889741A528797BC700AC7D42 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		889741A728797EE500AC7D42 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		889741A9287982BC00AC7D42 /* DetailsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		889741AB287982D000AC7D42 /* SignOutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutController.swift; sourceTree = "<group>"; };
+		889741AE2879843200AC7D42 /* UIExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIExtensions.swift; sourceTree = "<group>"; };
+		889741B02879A8A200AC7D42 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		8897418F28797B7500AC7D42 /* HM14(shio andghuladze) */ = {
 			isa = PBXGroup;
 			children = (
+				889741AD2879840B00AC7D42 /* Extensions */,
+				889741A428797B9C00AC7D42 /* Controller */,
 				8897419028797B7500AC7D42 /* AppDelegate.swift */,
 				8897419228797B7500AC7D42 /* SceneDelegate.swift */,
-				8897419428797B7500AC7D42 /* ViewController.swift */,
 				8897419628797B7500AC7D42 /* Main.storyboard */,
 				8897419928797B7600AC7D42 /* Assets.xcassets */,
 				8897419B28797B7600AC7D42 /* LaunchScreen.storyboard */,
 				8897419E28797B7600AC7D42 /* Info.plist */,
 			);
 			path = "HM14(shio andghuladze)";
+			sourceTree = "<group>";
+		};
+		889741A428797B9C00AC7D42 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				889741A528797BC700AC7D42 /* LoginController.swift */,
+				889741A728797EE500AC7D42 /* SignUpController.swift */,
+				889741A9287982BC00AC7D42 /* DetailsController.swift */,
+				889741AB287982D000AC7D42 /* SignOutController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		889741AD2879840B00AC7D42 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				889741AE2879843200AC7D42 /* UIExtensions.swift */,
+				889741B02879A8A200AC7D42 /* StringExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8897419528797B7500AC7D42 /* ViewController.swift in Sources */,
+				889741B12879A8A200AC7D42 /* StringExtensions.swift in Sources */,
 				8897419128797B7500AC7D42 /* AppDelegate.swift in Sources */,
+				889741AF2879843200AC7D42 /* UIExtensions.swift in Sources */,
+				889741A628797BC700AC7D42 /* LoginController.swift in Sources */,
+				889741AA287982BC00AC7D42 /* DetailsController.swift in Sources */,
+				889741AC287982D000AC7D42 /* SignOutController.swift in Sources */,
 				8897419328797B7500AC7D42 /* SceneDelegate.swift in Sources */,
+				889741A828797EE500AC7D42 /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
